@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(59, 90, 104);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+ul{
+    list-style-type: none;
+    gap: 3em;
+    display: flex;
+    align-items: center;
+}
+
+a{
+    color: #edf8f8;
+}
+
+img {
+    height: 35vh;
+    width: auto;
+    margin-bottom: 20px;
+}
+
+.header{
+    color: #edf8f8;
+    display: flex;
+    justify-content: center;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.info {
+    color: #edf8f8;
+    font-size: large;
+    display: flex;
+    text-align: center;
+    width: 70vw;
+}
