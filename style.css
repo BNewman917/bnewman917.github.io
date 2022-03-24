@@ -18,8 +18,12 @@ a {
   font-size: 18px;
   color: #e5e7eb;
 }
+.navbar {
+  color: #e5e7eb;
+}
 .header {
   font-size: 24px;
+  color: #e5e7eb;
   background-color: #3b5a68;
   padding: 20px;
   font-weight: 700;
