@@ -9,9 +9,8 @@ body {
 }
 
 ul {
-  list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding-bottom: 1rem;
   gap: 24px;
   display: flex;
 }
@@ -157,8 +156,24 @@ a {
 }
 
 .projects {
-  padding: 20% 10%;
+  padding: 17.5% 20%;
   flex: 1 1 auto;
+}
+
+.card-text {
+  padding-top: 1%;
+}
+
+.card-title,
+.buttons{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 5%;
+}
+
+#card-link{
+  color: #1f2937;
 }
 
 .footer {
