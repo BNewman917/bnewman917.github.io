@@ -10,9 +10,9 @@ body {
 
 ul {
   margin: 0;
-  padding-bottom: 1rem;
   gap: 24px;
   display: flex;
+  align-items: center;
 }
 
 a {
@@ -61,7 +61,7 @@ a {
 }
 
 .info-text {
-  font-size: 20px;
+  font-size: 2rem;
   color: #1f2937;
   font-weight: 900;
   padding: 8%;
@@ -71,6 +71,7 @@ a {
 }
 
 .info-body {
+  font-size: 1.2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -129,7 +130,7 @@ a {
 
 .litany {
   background: #e5e7eb;
-  height: 450px;
+  padding: 4.2% 0;
   font-family: "Open Sans Condensed", sans-serif;
   color: #1f2937;
   display: flex;
@@ -170,6 +171,10 @@ a {
   justify-content: center;
   align-content: center;
   gap: 5%;
+}
+
+ul.eyes{
+  margin-bottom: 1rem;
 }
 
 #card-link{
