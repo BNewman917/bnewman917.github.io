@@ -17,7 +17,7 @@ ul {
 
 a {
   text-decoration: none;
-  color: #f9faf8;
+  color: #8c6849;
   font-weight: bold;
 }
 
@@ -28,8 +28,8 @@ a {
 
 .header {
   font-size: 24px;
-  color: #e5e7eb;
-  background-color: #3b5a68;
+  color: #c1d4d9;
+  background-color: #324a59;
   padding-left: 60px;
   font-weight: 700;
   flex: 0 1 auto;
@@ -45,6 +45,8 @@ a {
 
 .info {
   display: flex;
+  background: #c1d4d9;
+  color: #324a59;
 }
 
 .info-left {
@@ -62,7 +64,6 @@ a {
 
 .info-text {
   font-size: 2rem;
-  color: #1f2937;
   font-weight: 900;
   padding: 8%;
   display: flex;
@@ -83,7 +84,8 @@ a {
 
 .hero {
   padding: 5% 0;
-  background-color: #3b5a68;
+  background-color: #99b4bf;
+  color: #324a59;
   display: grid;
   grid-template-rows: 400px 400px;
   justify-content: center;
@@ -97,15 +99,12 @@ a {
 }
 
 .hero-text {
-  background-color: #3b5a68;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
 
 .hero-box {
-  background-color: gray;
-  color: #f9faf8;
   font-weight: 400;
   display: flex;
   justify-content: center;
@@ -116,20 +115,18 @@ a {
   text-align: center;
   font-size: 2em;
   font-weight: 900;
-  color: #f9faf8;
   margin: 0;
 }
 
 #hero-second {
   font-size: 18px;
   font-weight: 400;
-  color: #e5e7eb;
   margin: 0;
   margin-right: 16px;
 }
 
 .litany {
-  background: #e5e7eb;
+  background: #a69256;
   padding: 4.2% 0;
   font-family: "Open Sans Condensed", sans-serif;
   color: #1f2937;
@@ -157,8 +154,17 @@ a {
 }
 
 .projects {
+  background-color: #c1d4d9;
   padding: 17.5% 20%;
   flex: 1 1 auto;
+}
+
+#card{
+  border: 10px solid #99b4bf;
+}
+
+#card-body{
+  background: #99b4bf;
 }
 
 .card-text {
@@ -173,6 +179,11 @@ a {
   gap: 5%;
 }
 
+.btn{
+  color: #c1d4d9;
+  background-color: #324a59;
+}
+
 ul.eyes{
   margin-bottom: 1rem;
 }
@@ -184,8 +195,8 @@ ul.eyes{
 .footer {
   display: flex;
   justify-content: center;
-  background-color: #1f2937;
-  color: #f9faf8;
+  background-color: #324a59;
+  color: #c1d4d9;
   padding-top: 20px;
   font-size: larger;
   flex: 0 1 auto;
