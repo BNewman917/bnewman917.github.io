@@ -13,7 +13,7 @@ const myNavBar = `
       >
     </li>
     <li class="nav-item">
-      <a class="nav-link active" href="./html/projects.html">Projects</a>
+      <a class="nav-link active" href="./projects.html">Projects</a>
     </li>
     <li class="nav-item">
       <a
