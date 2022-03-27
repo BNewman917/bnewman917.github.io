@@ -2,8 +2,8 @@ const header = document.getElementById('header');
 const myNavBar = `
 <nav id="navbar" class="navbar navbar-expand-lg navbar-dark">
 <div class="container-fluid" id="container-fluid">
-  <a class="navbar-brand" id="navbar-brand">Brent's Portfolio</a>
-  <ul class="navbar-nav d-flex flex-row bd-highlight">
+  <a id="navbar-brand" class="navbar-brand">Brent Newman's Portfolio</a>
+  <ul id="navbar-nav" class="navbar-nav d-flex flex-row bd-highlight">
     <li class="nav-item">
       <a
         class="nav-link active"
