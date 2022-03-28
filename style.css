@@ -57,8 +57,10 @@ img {
   }
 
   #navbar-nav {
+    height: 100%;
+    width: 100%;
     justify-content: center;
-    flex: 1 0 100%;
+    flex: 1 1 auto;
   }
 }
 
@@ -82,6 +84,7 @@ img {
   display: flex;
   justify-content: center;
 }
+
 .info-right {
   padding: 2% 2% 2% 0;
   flex: 1 1 55%;
@@ -91,7 +94,7 @@ img {
   justify-content: center;
 }
 
-@media only screen and (max-width: 550px) {
+@media screen and (max-width: 550px) {
   .info-right {
     flex: 1 1 100%;
     min-width: 0;
@@ -132,17 +135,28 @@ img {
   justify-content: center;
 }
 
-.fitVids-wrapper {
+.fitVids-wrapper { 
+  position: relative; 
+  margin: 0 auto 20px;  
+} 
+
+.fitVids-wrapper:before {
+  content: "";
+  display: block;
   position: relative;
   padding-bottom: 56.25%;
-  height: 0;
 }
+
+.fitVids-wrapper object,
+.fitVids-wrapper embed,
 .fitVids-wrapper iframe {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
+  min-width: none;
+  min-height: none;
 }
 
 .hero-tech {
@@ -193,6 +207,24 @@ img {
   margin-left: 55%;
 }
 
+@media screen and (max-width: 600px) {
+  .quote {
+    font-size: 1.5rem;
+  }
+  .cite {
+    font-size: 1rem;
+  }
+  .info-body {
+    font-size: 1rem;
+  }
+  .card-title{
+    font-size: 1rem;
+  }
+  .card-text{
+    font-size: 0.75rem;
+  }
+}
+
 .page {
   display: flex;
   flex-flow: column;
@@ -211,6 +243,10 @@ img {
 
 #card-body {
   background: #99b4bf;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
 }
 
 .card-text {
