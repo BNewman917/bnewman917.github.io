@@ -6,6 +6,7 @@ const myNavBar = `
   <ul id="navbar-nav" class="navbar-nav d-flex flex-row bd-highlight">
     <li class="nav-item">
       <a
+      id="nav-link"
         class="nav-link active"
         aria-current="page"
         href="https://bnewman917.github.io/"
@@ -13,22 +14,22 @@ const myNavBar = `
       >
     </li>
     <li class="nav-item">
-      <a class="nav-link active" href="./projects.html">Projects</a>
+      <a id="nav-link" class="nav-link active" href="./projects.html">Projects</a>
     </li>
     <li class="nav-item">
-      <a
+      <a id="nav-link"
         class="nav-link active"
         href="https://github.com/BNewman917"
         target="_blank"
-        ><img class="logo" src="../images/GitHub-Mark-Light-32px.png"
+        ><img class="logo" src="../images/github-logo.png"
       /></a>
     </li>
     <li class="nav-item">
-      <a
+      <a id="nav-link"
         class="nav-link active"
         href="http://www.linkedin.com/in/brent-newman-97838022a"
         target="_blank"
-        ><img class="logo" src="../images/linkedin-white.png"
+        ><img class="logo" src="../images/linkedin-logo.png"
       /></a>
     </li>
   </ul>

@@ -40,6 +40,7 @@ img {
 }
 
 #navbar-brand {
+  color: #ffc300;
   font-size: 1.5em;
   font-family: "Cinzel Decorative", cursive;
   padding-left: 3%;
@@ -49,6 +50,10 @@ img {
   padding-right: 5%;
   flex: 1 0 auto;
   justify-content: end;
+}
+
+#nav-link {
+  color: #ffc300;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -135,10 +140,22 @@ img {
   justify-content: center;
 }
 
-.fitVids-wrapper { 
-  position: relative; 
-  margin: 0 auto 20px;  
-} 
+#iframe {
+  width: 600px;
+  height: 338px;
+}
+
+@media screen and (max-width: 300px) {
+  #iframe {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.fitVids-wrapper {
+  position: relative;
+  margin: 0 auto 20px;
+}
 
 .fitVids-wrapper:before {
   content: "";
@@ -183,13 +200,14 @@ img {
 
 .hero-logo {
   height: 100%;
+  filter: drop-shadow(0 0 0.75rem #ffc300);
 }
 
 .litany {
-  background: #a69256;
+  background: #8c6849;
   padding: 4.2% 0;
   font-family: "Open Sans Condensed", sans-serif;
-  color: #1f2937;
+  color: #c1d4d9;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -217,10 +235,10 @@ img {
   .info-body {
     font-size: 1rem;
   }
-  .card-title{
+  .card-title {
     font-size: 1rem;
   }
-  .card-text{
+  .card-text {
     font-size: 0.75rem;
   }
 }
@@ -262,7 +280,7 @@ img {
 }
 
 .btn {
-  color: #c1d4d9;
+  color: #ffc300;
   background-color: #324a59;
 }
 
@@ -274,12 +292,12 @@ ul.eyes {
   color: #1f2937;
 }
 
-.footer {
+#footer {
   display: flex;
   justify-content: center;
   background-color: #324a59;
-  color: #c1d4d9;
-  padding-top: 20px;
+  color: #ffc300;
+  padding: 12px 0;
   font-size: larger;
   flex: 0 1 auto;
 }

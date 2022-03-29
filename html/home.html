@@ -68,13 +68,11 @@
 
     <section class="hero">
       <div class="hero-video">
-        <iframe
-          width="600"
-          height="338"
-          src="https://www.youtube.com/embed/ScMzIvxBSi4"
+        <iframe id="iframe"
+          src="https://www.youtube.com/embed/t6TIEZaMbZw"
           title="YouTube video player"
           frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
         ></iframe>
       </div>
@@ -118,11 +116,13 @@
       <div class="cite"><span>- Paul Atreides</span></div>
     </div>
 
-    <div class="footer">
-      <p>
-        Brent Newman 2022
-        <a href="https://xpro.mit.edu/" target="_blank">MIT xPro</a>
-      </p>
-    </div>
+    <div id="footer"></div>
+
+    <script src="../js/footer.js"></script>
+    <script>
+      createFooter();
+    </script>
   </body>
 </html>
+
+<!-- <a href="https://xpro.mit.edu/" target="_blank">MIT xPro</a> -->
