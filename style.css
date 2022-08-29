@@ -203,6 +203,11 @@ img {
   filter: drop-shadow(0 0 0.75rem #ffc300);
 }
 
+.mern-logo {
+  max-height: 450px !important;
+  filter: drop-shadow(0 0 0.75rem #ffc300);
+}
+
 .litany {
   background: #8c6849;
   padding: 4.2% 0;
